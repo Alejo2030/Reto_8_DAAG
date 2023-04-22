@@ -9,8 +9,11 @@
 ####  CODIGO DEL PROGRAMA
 
 ```ruby
-
+range(-2) # No genera una secuencia
+for num in range(-2): print(num) # No imprime el rango
 ```
+
+### Codigo donde se obtiene un objeto de rango vacío. Esto se debe a que solo se da el primer argumento de la función range() que especifica el valor de inicio del rango, pero no el el segundo argumento que especifica el valor final del rango, lo que significa que el rango es indefinido y no se puede generar ningún número. x no ingresa al ciclo
 
 
 
@@ -82,6 +85,17 @@ print( "Estos son los numeros pares hasta " + str(s)) # Imprimir enunciado, para
 
 #### :unlock: CODIGO DEL PROGRAMA
 ```ruby
+def dar_factorial(l): # Definir una función para factorial 
+    facto = 1 # Inicializar la variable factorial en 1
+    for i in range(1,l+1):  # Bucle para multiplicar los números del 1 al n y calcular su respctivo factorial
+        facto = i * facto # Dar el factorial de cada número en el bucle
+        print(i, "! es igual a ", facto)
+    # Devolver el factorial del número dado
+    return facto
+
+if __name__ == "__main__": #Ejecutar función
+    l = int(input("Ingrese un número entero del cual desee conocer su factorial y sus factoriales antes de el : ")) #Pedir al usuario un numero l para hacer el factorial desde 1 hasta l
+    fact = dar_factorial(l) #Solicitar la función y que plasta cada numero dado "facto"
 
 ```
 
