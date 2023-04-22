@@ -129,7 +129,20 @@ print("El resultado de 2 elevado a la " + str(l)+ " es " + str(result)) # result
 
 
 ```ruby
+#6. Reto 8
 
+l = int(input("Ingresa un número natural: ")) #Ingrese un valor deseado entero que va ser por el que esté elevado s
+s = float(input("Ingresa un número real: ")) #Ingrese número que quiere elevar a la l
+
+
+resultado = 1 #Inicializar la variable resultado en 1
+
+# Se utiliza un ciclo for para multiplicar x por sí mismo n veces
+for i in range(l):
+    resultado *= s
+
+# Se imprime el resultado obtenido en la última iteración del ciclo for
+print(" El resultado de " + str(s) + " elevado a la " + str(l) + " es " + str(resultado) )
 ```
 
 
@@ -140,7 +153,16 @@ print("El resultado de 2 elevado a la " + str(l)+ " es " + str(result)) # result
 
 #### :unlock: CODIGO DEL PROGRAMA
 ```ruby
+# 7. Reto 8
 
+for i in range(1, 10): # Se recorre un ciclo for del 1 al 9
+    print(f"Tabla del {i}") # Se imprime la cabecera de la tabla
+    print("\n")
+    # Se recorre otro ciclo for del 1 al 10 para mostrar los valores de la tabla
+    for j in range(1, 11):
+        # Se imprime el resultado de la multiplicación
+        print(f"{i} x {j} = {i*j}")
+    
 ```
 
 
