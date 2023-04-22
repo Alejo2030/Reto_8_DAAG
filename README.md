@@ -173,7 +173,7 @@ def exp_approx(x, n):  # Definimos una función que toma dos argumentos: x y n.
 x = float(input("Ingrese el valor de x para aproximar la función exponencial: "))# Solicitar el valor de x
 n = int(input("Ingrese el número de términos de la serie de Maclaurin que desea utilizar: "))# Solicitar el valor de  n.
 
-exp_approx(x, n)# Llamamos a la función exp_approx con los valores ingresados por el usuario.
+exp_approx(x, n)# Llamar a la función exp_approx con los valores dados 
 ```
 
 
@@ -212,7 +212,7 @@ def sin_approx(x, n):# Definimos la función sin_approx que toma dos argumentos:
 x = float(input("Ingrese el valor de x para aproximar la función seno: ")) #Solicitar valor de x
 n = int(input("Ingrese el número de términos de la serie de Maclaurin que desea utilizar: ")) #solicitar valor de n 
 
-sin_approx(x, n) # Llamamos a la función sin_approx con los valores ingresados por el usuario
+sin_approx(x, n) # Llamar a la función sin_approx con los valores dados  
 ```
 
 
