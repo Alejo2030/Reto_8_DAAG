@@ -297,4 +297,5 @@ arctan_approx(x, n)# Llamar a la función arctan_approx para utilizar los valore
 
 
 
-## :sparkles: Esto es todo hoy amigos :blush:, espero poder haberlos ayudado he inspirado para encontar nuevas soluciones para nuevos retos :sparkles: 
+## :file_folder: Este es el desarrollo del reto 8 en su totalidad, espero les sirva en su camino al aprendizaje!!!
+## ¡¡ Vamos Manchester City!! :one::one::one::one::one::one::one:
